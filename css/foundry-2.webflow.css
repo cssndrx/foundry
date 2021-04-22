@@ -109,10 +109,18 @@ a {
   -ms-transform: none;
   transform: none;
   font-family: 'Droid Sans', sans-serif;
-  color: #000;
+  color: #8a9fab;
   font-weight: 400;
   text-decoration: underline;
   cursor: pointer;
+}
+
+ul {
+  color: white;
+}
+
+li{
+  font-size: 18px;
 }
 
 img {
@@ -1916,6 +1924,7 @@ img {
 
 .paragraph-6 {
   color: #fff;
+  font-size: 20px;
 }
 
 .link-block {
