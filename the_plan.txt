@@ -1,11 +1,5 @@
 
 add in advisors
-add in collaborators
-
-fix for mobile
-add eugene's text
-
-===
 
 darkblue 26495c
 lightblue b9cad4
@@ -13,5 +7,4 @@ lightblue b9cad4
 ===
 
 to check:
-favicon
 add meta tags for sharing
