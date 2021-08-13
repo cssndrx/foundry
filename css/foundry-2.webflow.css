@@ -95,7 +95,7 @@ p {
   transform: none;
   font-family: Graphik, sans-serif;
   color: #2c4350;
-  font-size: 1.6em;
+  font-size: 1.4em;
   line-height: 1.6;
   font-weight: 400;
   text-align: left;
@@ -1947,6 +1947,47 @@ img {
 }
 
 @media screen and (max-width: 991px) {
+  .heading {
+    margin-bottom: 20px;
+  }
+
+  .slider {
+  max-height: 200px;
+  }
+
+  .lightbulb{
+    max-width: 100%;
+    object-fit: contain;
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .rope-image{
+    margin-top:  36px;
+    max-width:  80%;
+  }
+
+.title-page{
+  min-height:  80vh;
+}
+  .plantbulb{
+    position:relative;
+    top: 200px;
+    max-width:  40%;
+  }
+
+  .section.last{
+    min-height:  85vh;
+  }
+
+  .shoot{
+    position: relative;
+    right:  50px;
+    top:  100px;
+    width:  200px;
+  }
+
+
   h1 {
     position: static;
     margin-bottom: 32px;
@@ -2320,132 +2361,12 @@ img {
   }
 }
 
-@media screen and (max-width: 767px) {
-  h1 {
-    font-size: 5.5vw;
-  }
-
-  h2 {
-    font-size: 4vw;
-  }
-
-  h4 {
-    font-size: 14px;
-  }
-
-  p {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-
-  .wrapper {
-    padding-right: 40px;
-    padding-left: 40px;
-  }
-
-  .row {
-    padding-right: 10px;
-    padding-left: 10px;
-  }
-
-  .navbar {
-    left: 0px;
-    top: 0px;
-    right: 0px;
-  }
-
-  .block {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 100%;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-  }
-
-  .block.case-study-intro-paragraph {
-    min-width: 0%;
-  }
-
-  .block.mobile {
-    -webkit-flex-basis: 50%;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-  }
-
-  .div-block-4 {
-    min-width: auto;
-  }
-
-  .div-block-5 {
-    min-width: auto;
-  }
-
-  .hero-image {
-    width: auto;
-    height: auto;
-    max-width: 100%;
-  }
-
-  /*.heading.first {*/
-  /*  margin-top: 107px;*/
-  /*}*/
-
-  .heading-3 {
-    font-size: 2em;
-  }
-
-  .pagination {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-
-  .pagination-link {
-    padding: 4px;
-  }
-
-  .pagination-line {
-    height: 20px;
-  }
-
-  .big-paragraph {
-    display: block;
-    margin-top: 15px;
-    text-align: center;
-  }
-
-  .not-sticky.full-opacity {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-
-  .sandal {
-    max-width: 60vw;
-  }
-}
 
 @media screen and (max-width: 479px) {
 
-  .heading {
-    margin-bottom: 20px;
-  }
-
-  .slider {
-  max-height: 200px;
-  }
-
-  .lightbulb{
-    max-width: 100%;
-    object-fit: contain;
-    width: 80%;
-    margin: 20px auto;
-  }
-
-  .plantbulb{
-    position:relative;
-    top: 200px;
-  }
+.title-page{
+  min-height:  60vh;
+}
 
   h1 {
     margin-left: 0px;
